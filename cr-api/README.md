@@ -21,8 +21,14 @@ readme to give any additional information a reviewer might need.
 
 Implementation Details
 
-<your details>
+Adeel adeelyounas@gmail.com
 
 Assumptions
 
-<your assumptions> 
+- Support API and Browser/Session login as it was not clear if API should be browsable.
+    Added token collection where tokens can be persisted for API.
+- When login in browser session is created, and user can see menu options.
+- When login via API, user gets token back, that can be used (as "Authorization" header) to
+    make further requests where authentication is required.
+- When running application in debug mode (`python cr/api/server.py`) default user with email `admin@fit.com`
+    and password `pass` is create, which can be used to login perform further actions.
