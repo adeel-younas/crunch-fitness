@@ -32,4 +32,4 @@ Assumptions
     make further requests where authentication is required.
 - When running application in debug mode (`python cr/api/server.py`) default user with email `admin@fit.com`
     and password `pass` is create, which can be used to login perform further actions.
-- Testing can be done on API endpoint, there are few tests which just check for authentication at the moment and be further           improved.
+- Testing can be done on API endpoint, there are few tests which just check for authentication at the moment and be further improved.
