@@ -345,8 +345,8 @@ class Root(object):
 
         - Processing the desired data when user is created/updated will make API to respond faster.
         - Storing information like avg, min, max after first calculation and then recalculating on update can save a lot
-            of iterations, e.g, Average can be stored as (AVG, NUM_OF_RECORDS) and on update/creation of user average can
-            be calculated as (AVG + NEW_DISTANCE) / (NUM_OF_RECORDS + 1).
+            of iterations, e.g, Sum of distances can be stored as (SUM, NUM_OF_RECORDS) and on update/creation of user average can
+            be update as (SUM + NEW_DISTANCE) / (NUM_OF_RECORDS + 1) .
         - Caching can help to prevent calculating twice
 
 
